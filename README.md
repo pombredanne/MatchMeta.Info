@@ -2,10 +2,6 @@ MatchMeta.Info
 ==============
 MatchMeta.Info uses Python to search a SQLite database for unique full paths from XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8 and WIN2K12.
 
-$ ./MatchMeta.Info.py -h
-MatchMeta.Info.py -i <ItemPath>  
-ItemPath: "Windows\System32\services.exe"
-
 Four comparisons are completed to determine if the file name and path traditionally exist on a specific computer.
 
 - Operating Systems - exact full path match 
