@@ -31,6 +31,3 @@ Similar Filenames:
 * windows\notepad.exe
 * windows\system32\dllcache\wnotepad.exe
 * windows\syswow64\notepad.exe
-
-Potential Options:
-* windows\notepad.exe
