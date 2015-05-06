@@ -9,3 +9,4 @@ https://www.f-response.com/assets/pdfs/F-ResponseFlexdiskAPIv1-2.pdf
 <h3>match_metainfo.py</h3>
 
 <h3>MatchMeta.Info.zip</h3>
+A sample MatchMeta.Info database compiled from 32 base installs consisting of XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8 and WIN2K12 machines.
