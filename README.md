@@ -4,6 +4,8 @@ MatchMeta.Info uses Python to create and match a SQLite database for unique full
 
 https://www.f-response.com/assets/pdfs/F-ResponseFlexdiskAPIv1-2.pdf
 
-<h3>create_metainfo</h3>
+<h3>create_metainfo.py</h3>
 
-<h3>match_metainfo</h3>
+<h3>match_metainfo.py</h3>
+
+<h3>MatchMeta.Info.zip</h3>
