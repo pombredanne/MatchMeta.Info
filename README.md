@@ -5,7 +5,21 @@ MatchMeta.Info uses Python to create and match a SQLite database for unique full
 https://www.f-response.com/assets/pdfs/F-ResponseFlexdiskAPIv1-2.pdf
 
 <h3>create_metainfo.py</h3>
+Help Information:
+```
+./create_metainfo.py -h
+usage: create_metainfo.py [-h] -d DB [-f FLEXD] -o OS
 
+optional arguments:
+  -h, --help                show this help message and exit
+  -d DB, --db DB            MatchMeta.Info SQLite Location
+  -f FLEXD, --flexd FLEXD   F-Response Flexdisk Import
+  -o OS, --os OS            Operating System Type: XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8, WIN2K12 & WIN10
+```
+Example Command:
+```
+./create_metainfo.py -d MatchMeta.Info -f flexd-csv.csv -o WIN10
+```
 <h3>match_metainfo.py</h3>
 
 <h3>MatchMeta.Info.zip</h3>
