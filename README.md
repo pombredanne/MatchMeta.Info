@@ -14,7 +14,15 @@ optional arguments:
   -h, --help                show this help message and exit
   -d DB, --db DB            MatchMeta.Info SQLite Location
   -f FLEXD, --flexd FLEXD   F-Response Flexdisk Import
-  -o OS, --os OS            Operating System Type: XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8, WIN2K12 & WIN10
+  -o OS, --os OS            Operating System Type: 
+                             XP
+                             VISTA
+                             WIN2K3
+                             WIN7
+                             WIN2K8
+                             WIN8
+                             WIN2K12
+                             WIN10
 ```
 Example Command:
 ```
