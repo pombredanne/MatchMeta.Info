@@ -4,10 +4,10 @@ MatchMeta.Info uses Python to create and match a SQLite database for unique full
 
 https://www.f-response.com/assets/pdfs/F-ResponseFlexdiskAPIv1-2.pdf
 
-<h3>create_metainfo.py</h3>
+##create_metainfo.py
 Inserts the allocated file name and full path into the MatchMeta.Info database in lower case excluding the '$orphanfiles’ and 'system volume information’ folders.  A ‘%’ will replace the username in the path for the ‘users’ and 'documents and settings’ folders.  The operating system is set by placing a ‘1’ in the corresponding column in the database.
 <br><br>
-Help Information:
+###Help Information:
 ```
 ./create_metainfo.py -h
 usage: create_metainfo.py [-h] -d DB [-f FLEXD] -o OS
@@ -26,11 +26,11 @@ optional arguments:
                               WIN2K12
                               WIN10
 ```
-Example Command:
+###Example Command:
 ```
 ./create_metainfo.py -d MatchMeta.Info -f flexd-csv.csv -o WIN10
 ```
-<h3>match_metainfo.py</h3>
+##match_metainfo.py
 
-<h3>MatchMeta.Info.zip</h3>
+##MatchMeta.Info.zip
 A sample MatchMeta.Info database compiled from 32 base installs consisting of XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8 and WIN2K12 machines.
