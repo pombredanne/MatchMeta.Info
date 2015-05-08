@@ -32,5 +32,11 @@ optional arguments:
 ```
 ##match_metainfo.py
 
+###Requirement:
+```
+git clone https://github.com/liangsun/simhash.git
+python setup.py install
+```
+
 ##MatchMeta.Info.zip
 A sample MatchMeta.Info database compiled from 32 base installs consisting of XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8 and WIN2K12 machines.
