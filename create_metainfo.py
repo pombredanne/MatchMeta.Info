@@ -7,7 +7,7 @@ import sqlite3
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-d','--db', help='MatchMeta.Info SQLite Location',required=True)
-parser.add_argument('-f','--flexd', help='F-Response Flexdisk Import')
+parser.add_argument('-f','--flexd', help='F-Response Flexdisk Import',required=True)
 parser.add_argument('-o','--os', help='Operating System Types: XP, VISTA, WIN2K3, WIN7, WIN2K8, WIN8, WIN2K12 & WIN10',required=True)
 args = parser.parse_args()
 
