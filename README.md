@@ -37,7 +37,7 @@ optional arguments:
 ./create_metainfo.py -d MatchMeta.Info -f flexd-csv.csv -o WIN10
 ```
 ##match_metainfo.py
-Compares the MatchMeta.Info database to determine if paths are matches, unknown,  wrong file location, wrong operating system, or fuzzy near matches.  Fuzzy near matches uses ‘simhash' that will take a little bit longer to build and compare the index a.k.a. slower.
+Compares the MatchMeta.Info database to determine if paths are matches, unknown,  wrong file location, wrong operating system, or fuzzy near matches.  Fuzzy near matches uses ‘simhash' that will take a little bit longer  a.k.a. slower to build and compare the index.
 ###Help Information:
 ```
 ./match_metainfo.py -h
